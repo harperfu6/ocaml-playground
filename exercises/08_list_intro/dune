@@ -1,0 +1,17 @@
+(library
+ (name problem_8)
+ (libraries base stdio)
+ (inline_tests)
+ (preprocess (pps ppx_jane ppx_inline_test)))
+
+(env
+  (dev
+    (flags (:standard
+            -w -20 
+            -w -27 
+            -w -32 
+            -w -34 
+            -w -37 
+            -w -39)))
+  (release 
+   (flags (:standard))))

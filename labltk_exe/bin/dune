@@ -1,0 +1,4 @@
+(executable
+ (public_name labltk_exe)
+ (name main)
+ (libraries labltk))

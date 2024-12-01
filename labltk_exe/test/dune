@@ -1,0 +1,3 @@
+(test
+ (name labltk_exe)
+ (libraries bank ounit2))

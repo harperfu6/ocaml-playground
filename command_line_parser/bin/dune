@@ -1,0 +1,4 @@
+(executable
+ (public_name command_line_parser)
+ (name main)
+ (libraries command_line_parser core))

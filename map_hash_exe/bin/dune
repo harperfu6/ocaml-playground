@@ -1,0 +1,4 @@
+(executable
+ (public_name map_hash_exe)
+ (name main)
+ (libraries map_hash_exe base core_bench))

@@ -1,0 +1,7 @@
+_build/
+.merlin
+
+learn-ocaml-workshop/
+
+*.cmx
+*.o
